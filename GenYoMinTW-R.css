@@ -1,0 +1,676 @@
+/**
+ * Font Splitter
+ * https://github.com/VdustR/font-splitter
+ */
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Basic-Latin.woff2) format('woff2'), url(GenYoMinTW-R-01.Basic-Latin.woff) format('woff');
+  unicode-range: U+0-7e;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Latin-1-Supplement.woff2) format('woff2'), url(GenYoMinTW-R-01.Latin-1-Supplement.woff) format('woff');
+  unicode-range: U+80-ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Latin-Extended-A.woff2) format('woff2'), url(GenYoMinTW-R-01.Latin-Extended-A.woff) format('woff');
+  unicode-range: U+100-103, U+110-115, U+11a-11b, U+128-12d, U+143-144, U+147-148, U+14c-153, U+168-16d, U+170-171;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Latin-Extended-B.woff2) format('woff2'), url(GenYoMinTW-R-01.Latin-Extended-B.woff) format('woff');
+  unicode-range: U+192, U+197, U+1a0-1a1, U+1af-1b0, U+1cd-1dc, U+1f8-1f9, U+244;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.IPA-Extensions.woff2) format('woff2'), url(GenYoMinTW-R-01.IPA-Extensions.woff) format('woff');
+  unicode-range: U+251, U+261, U+268, U+289;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Spacing-Modifier-Letters.woff2) format('woff2'), url(GenYoMinTW-R-01.Spacing-Modifier-Letters.woff) format('woff');
+  unicode-range: U+2c6-2c7, U+2c9-2cb, U+2d9, U+2ea-2eb;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Combining-Diacritical-Marks.woff2) format('woff2'), url(GenYoMinTW-R-01.Combining-Diacritical-Marks.woff) format('woff');
+  unicode-range: U+300-302, U+304, U+306, U+30b-30d, U+358;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Greek-and-Coptic.woff2) format('woff2'), url(GenYoMinTW-R-01.Greek-and-Coptic.woff) format('woff');
+  unicode-range: U+391-3a1, U+3a3-3a9, U+3b1-3c9;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Cyrillic.woff2) format('woff2'), url(GenYoMinTW-R-01.Cyrillic.woff) format('woff');
+  unicode-range: U+401, U+410-44f, U+451;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Latin-Extended-Additional.woff2) format('woff2'), url(GenYoMinTW-R-01.Latin-Extended-Additional.woff) format('woff');
+  unicode-range: U+1e3e-1e3f, U+1e5e-1e5f, U+1ea0-1ef9;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.General-Punctuation.woff2) format('woff2'), url(GenYoMinTW-R-01.General-Punctuation.woff) format('woff');
+  unicode-range: U+2002-2003, U+2010-2016, U+2018-201a, U+201c-201e, U+2020-2022, U+2025-2027, U+2030, U+2032-2033, U+2035, U+2039-203c, U+2042, U+2047-2049, U+2051;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Superscripts-and-Subscripts.woff2) format('woff2'), url(GenYoMinTW-R-01.Superscripts-and-Subscripts.woff) format('woff');
+  unicode-range: U+207a, U+207f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Currency-Symbols.woff2) format('woff2'), url(GenYoMinTW-R-01.Currency-Symbols.woff) format('woff');
+  unicode-range: U+20a9, U+20ab-20ac;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Combining-Diacritical-Marks-for-Symbols.woff2) format('woff2'), url(GenYoMinTW-R-01.Combining-Diacritical-Marks-for-Symbols.woff) format('woff');
+  unicode-range: U+20dd-20de;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Letterlike-Symbols.woff2) format('woff2'), url(GenYoMinTW-R-01.Letterlike-Symbols.woff) format('woff');
+  unicode-range: U+2100, U+2103, U+2105, U+2109-210a, U+210f, U+2113, U+2116, U+2121-2122, U+2126-2127, U+212b, U+212e, U+2135, U+213b;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Number-Forms.woff2) format('woff2'), url(GenYoMinTW-R-01.Number-Forms.woff) format('woff');
+  unicode-range: U+2160-216b, U+2170-217b;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Arrows.woff2) format('woff2'), url(GenYoMinTW-R-01.Arrows.woff) format('woff');
+  unicode-range: U+2190-2199, U+21b8-21b9, U+21c4-21c6, U+21cb-21cc, U+21d0, U+21d2, U+21d4, U+21e6-21e9, U+21f5;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Mathematical-Operators.woff2) format('woff2'), url(GenYoMinTW-R-01.Mathematical-Operators.woff) format('woff');
+  unicode-range: U+2200, U+2202-2203, U+2205-220b, U+220f, U+2211-2213, U+2215, U+221a, U+221d-2220, U+2223, U+2225-222e, U+2234-2237, U+223d, U+2243, U+2245, U+2248, U+224c, U+2252, U+2260-2262, U+2264-2267, U+226a-226b, U+226e-226f, U+2272-2273, U+2276-2277, U+2282-2287, U+228a-228b, U+2295-2299, U+22a0, U+22a5, U+22bf, U+22da-22db, U+22ef;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Miscellaneous-Technical.woff2) format('woff2'), url(GenYoMinTW-R-01.Miscellaneous-Technical.woff) format('woff');
+  unicode-range: U+2305-2307, U+2312, U+2318, U+2329-232a, U+23b0-23b1, U+23be-23cc, U+23ce, U+23da-23db;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Control-Pictures.woff2) format('woff2'), url(GenYoMinTW-R-01.Control-Pictures.woff) format('woff');
+  unicode-range: U+2423;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Enclosed-Alphanumerics.woff2) format('woff2'), url(GenYoMinTW-R-01.Enclosed-Alphanumerics.woff) format('woff');
+  unicode-range: U+2460-24ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Box-Drawing.woff2) format('woff2'), url(GenYoMinTW-R-01.Box-Drawing.woff) format('woff');
+  unicode-range: U+2500-257f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Block-Elements.woff2) format('woff2'), url(GenYoMinTW-R-01.Block-Elements.woff) format('woff');
+  unicode-range: U+2580-259f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Geometric-Shapes.woff2) format('woff2'), url(GenYoMinTW-R-01.Geometric-Shapes.woff) format('woff');
+  unicode-range: U+25a0-25ab, U+25b1-25b3, U+25b6-25b7, U+25bc-25bd, U+25c0-25c1, U+25c6-25cc, U+25ce-25d3, U+25e2-25e6, U+25ef;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Miscellaneous-Symbols.woff2) format('woff2'), url(GenYoMinTW-R-01.Miscellaneous-Symbols.woff) format('woff');
+  unicode-range: U+2600-2603, U+2605-2606, U+2609, U+260e-260f, U+2616-2617, U+261c-261f, U+262f, U+2640-2642, U+2660-266f, U+2672-267d, U+26a0, U+26bd-26be;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Dingbats.woff2) format('woff2'), url(GenYoMinTW-R-01.Dingbats.woff) format('woff');
+  unicode-range: U+2702, U+2713, U+271a, U+273d, U+273f-2740, U+2756, U+2776-277f, U+27a1;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Supplemental-Arrows-B.woff2) format('woff2'), url(GenYoMinTW-R-01.Supplemental-Arrows-B.woff) format('woff');
+  unicode-range: U+2934-2935;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Miscellaneous-Mathematical-Symbols-B.woff2) format('woff2'), url(GenYoMinTW-R-01.Miscellaneous-Mathematical-Symbols-B.woff) format('woff');
+  unicode-range: U+29bf, U+29fa-29fb;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Miscellaneous-Symbols-and-Arrows.woff2) format('woff2'), url(GenYoMinTW-R-01.Miscellaneous-Symbols-and-Arrows.woff) format('woff');
+  unicode-range: U+2b05-2b07, U+2b1a, U+2b95;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Supplemental-Punctuation.woff2) format('woff2'), url(GenYoMinTW-R-01.Supplemental-Punctuation.woff) format('woff');
+  unicode-range: U+2e3a;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Radicals-Supplement.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Radicals-Supplement.woff) format('woff');
+  unicode-range: U+2e80-2e99, U+2e9b-2ef3;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Ideographic-Description-Characters.woff2) format('woff2'), url(GenYoMinTW-R-01.Ideographic-Description-Characters.woff) format('woff');
+  unicode-range: U+2ff0-2ffb;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Symbols-and-Punctuation.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Symbols-and-Punctuation.woff) format('woff');
+  unicode-range: U+3000-303f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Hiragana.woff2) format('woff2'), url(GenYoMinTW-R-01.Hiragana.woff) format('woff');
+  unicode-range: U+3041-3096, U+3099-309f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Katakana.woff2) format('woff2'), url(GenYoMinTW-R-01.Katakana.woff) format('woff');
+  unicode-range: U+30a0-30ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Bopomofo.woff2) format('woff2'), url(GenYoMinTW-R-01.Bopomofo.woff) format('woff');
+  unicode-range: U+3105-312f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Kanbun.woff2) format('woff2'), url(GenYoMinTW-R-01.Kanbun.woff) format('woff');
+  unicode-range: U+3190-319f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Bopomofo-Extended.woff2) format('woff2'), url(GenYoMinTW-R-01.Bopomofo-Extended.woff) format('woff');
+  unicode-range: U+31a0-31bb;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Strokes.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Strokes.woff) format('woff');
+  unicode-range: U+31c0-31e3;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Katakana-Phonetic-Extensions.woff2) format('woff2'), url(GenYoMinTW-R-01.Katakana-Phonetic-Extensions.woff) format('woff');
+  unicode-range: U+31f0-31ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Enclosed-CJK-Letters-and-Months.woff2) format('woff2'), url(GenYoMinTW-R-01.Enclosed-CJK-Letters-and-Months.woff) format('woff');
+  unicode-range: U+3220-3247, U+3250-325f, U+327f-32bf, U+32cc-32ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Compatibility.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Compatibility.woff) format('woff');
+  unicode-range: U+3300-332b, U+332d-3357, U+3371-33df, U+33ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-1.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-1.woff) format('woff');
+  unicode-range: U+3400-37ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-2.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-2.woff) format('woff');
+  unicode-range: U+3800-3bff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-3.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-3.woff) format('woff');
+  unicode-range: U+3c00-3fff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-4.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-4.woff) format('woff');
+  unicode-range: U+4000-43ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-5.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-5.woff) format('woff');
+  unicode-range: U+4400-47ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-6.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-6.woff) format('woff');
+  unicode-range: U+4800-4bff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-7.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-A-7.woff) format('woff');
+  unicode-range: U+4c00-4db5;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-01.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-01.woff) format('woff');
+  unicode-range: U+4e00-51ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-02.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-02.woff) format('woff');
+  unicode-range: U+5200-55ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-03.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-03.woff) format('woff');
+  unicode-range: U+5600-59ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-04.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-04.woff) format('woff');
+  unicode-range: U+5a00-5dff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-05.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-05.woff) format('woff');
+  unicode-range: U+5e00-61ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-06.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-06.woff) format('woff');
+  unicode-range: U+6200-65ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-07.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-07.woff) format('woff');
+  unicode-range: U+6600-69ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-08.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-08.woff) format('woff');
+  unicode-range: U+6a00-6dff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-09.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-09.woff) format('woff');
+  unicode-range: U+6e00-71ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-10.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-10.woff) format('woff');
+  unicode-range: U+7200-75ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-11.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-11.woff) format('woff');
+  unicode-range: U+7600-79ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-12.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-12.woff) format('woff');
+  unicode-range: U+7a00-7dff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-13.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-13.woff) format('woff');
+  unicode-range: U+7e00-81ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-14.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-14.woff) format('woff');
+  unicode-range: U+8200-85ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-15.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-15.woff) format('woff');
+  unicode-range: U+8600-89ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-16.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-16.woff) format('woff');
+  unicode-range: U+8a00-8dff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-17.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-17.woff) format('woff');
+  unicode-range: U+8e00-91ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-18.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-18.woff) format('woff');
+  unicode-range: U+9200-95ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-19.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-19.woff) format('woff');
+  unicode-range: U+9600-99ff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-20.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-20.woff) format('woff');
+  unicode-range: U+9a00-9dff;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-21.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-21.woff) format('woff');
+  unicode-range: U+9e00-9fea;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Compatibility-Ideographs.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Compatibility-Ideographs.woff) format('woff');
+  unicode-range: U+f900-fa6d;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Alphabetic-Presentation-Forms.woff2) format('woff2'), url(GenYoMinTW-R-01.Alphabetic-Presentation-Forms.woff) format('woff');
+  unicode-range: U+fb00-fb04;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Vertical-Forms.woff2) format('woff2'), url(GenYoMinTW-R-01.Vertical-Forms.woff) format('woff');
+  unicode-range: U+fe10-fe19;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Compatibility-Forms.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Compatibility-Forms.woff) format('woff');
+  unicode-range: U+fe30-fe4f;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Small-Form-Variants.woff2) format('woff2'), url(GenYoMinTW-R-01.Small-Form-Variants.woff) format('woff');
+  unicode-range: U+fe50-fe52, U+fe54-fe66, U+fe68-fe6b;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Halfwidth-and-Fullwidth-Forms.woff2) format('woff2'), url(GenYoMinTW-R-01.Halfwidth-and-Fullwidth-Forms.woff) format('woff');
+  unicode-range: U+ff01-ffa0, U+ffe0-ffe6, U+ffe8-ffee;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Enclosed-Alphanumeric-Supplement.woff2) format('woff2'), url(GenYoMinTW-R-01.Enclosed-Alphanumeric-Supplement.woff) format('woff');
+  unicode-range: U+1f100-1f10a, U+1f110-1f16b, U+1f170-1f1ac;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.Enclosed-Ideographic-Supplement.woff2) format('woff2'), url(GenYoMinTW-R-01.Enclosed-Ideographic-Supplement.woff) format('woff');
+  unicode-range: U+1f200-1f202, U+1f210-1f23b, U+1f240-1f248, U+1f250-1f251;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-B.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-B.woff) format('woff');
+  unicode-range: U+2000b, U+20087, U+20089-2008a, U+200a2, U+200a4, U+200b0, U+200cc, U+200f5, U+20158, U+20164, U+201a2, U+20213, U+2028e, U+2032b, U+20371, U+20381, U+203b7, U+203f9, U+2044a, U+20509, U+2053f, U+20546-20547, U+20584, U+205b1, U+205d6, U+205fb, U+20611, U+20628, U+20676, U+206ec, U+20731, U+2074f, U+207a9, U+207ad, U+207c8, U+20803, U+20807, U+2081d, U+2083a, U+20895, U+208b9, U+2090e, U+2097c, U+20984, U+2099d, U+20a64, U+20ad3, U+20b1d, U+20b9f, U+20bb7, U+20bd7, U+20cbf, U+20cd0, U+20d45, U+20d58, U+20de1, U+20e64, U+20e6d, U+20e95, U+20f5f, U+21201, U+2123d, U+21255, U+21274, U+2127b, U+212d7, U+212e4, U+212fd, U+2131b, U+21336, U+21344, U+2139a, U+213c4, U+21413, U+2146d-2146e, U+215d7, U+21647, U+216b4, U+21706, U+21742, U+21883, U+218bd, U+219c3, U+21a1a, U+21c56, U+21cde, U+21d2d, U+21d45, U+21d62, U+21d78, U+21d92, U+21d9c, U+21da1, U+21db7, U+21de0, U+21e33-21e34, U+21f1e, U+21f76, U+21ffa, U+2217b, U+22218, U+2231e, U+22399, U+223ad, U+22609, U+226f3, U+2285b, U+228ab, U+2298f, U+22ab1, U+22ab8, U+22ae6, U+22b46, U+22b4f-22b50, U+22ba6, U+22bed, U+22bfe, U+22c1d, U+22c24, U+22c64, U+22cb4, U+22cb8, U+22cc6, U+22cea, U+22d80, U+22de1, U+22e42, U+22f0c, U+22f1b, U+22feb, U+23073, U+231b6, U+231c3-231c4, U+231f5, U+23372, U+233cc, U+233d0, U+233d2-233d3, U+233d5, U+233da, U+233df, U+233e4, U+233fe, U+2344a-2344b, U+23451, U+23465, U+234e4, U+2355a, U+23594, U+235c4, U+235cb, U+23638-2363a, U+23647, U+236ee, U+2370c, U+2371c, U+2373f, U+23763-23764, U+237e7, U+237f1, U+237ff, U+23824, U+2383d, U+23a98, U+23b88, U+23c7f, U+23c97-23c98, U+23ca9, U+23cbe, U+23cfe, U+23d00, U+23d0e, U+23d40, U+23dd3, U+23df9-23dfa, U+23e23, U+23ef8, U+23f0e, U+23f7e, U+2404b, U+24096, U+24103, U+241ac, U+241c6, U+241fe, U+24259, U+242b6, U+242ee, U+2430d, U+24352, U+243bc, U+243d0, U+24419, U+24430, U+24605, U+24629, U+246a5, U+2479a, U+247f1, U+24896, U+248e9, U+249db, U+24a4d, U+24a7d, U+24ac9, U+24b56, U+24b6f, U+24c16, U+24c8d, U+24d14, U+24d83, U+24e01, U+24e04, U+24e0e, U+24e31, U+24e37, U+24e6a, U+24e85, U+24e8b, U+24eaa, U+24ff2, U+2504a, U+25055, U+25122, U+251a9, U+251cd, U+251e5, U+2521e, U+2524c, U+2531a, U+25349, U+2542e, U+25435, U+2546e, U+2548e, U+254d9, U+2550e, U+25532, U+25562, U+255a7-255a8, U+2567f, U+25771, U+257a9, U+257b4, U+25874, U+259c4, U+259cc, U+259d4, U+25ad7, U+25ae3-25ae4, U+25af1, U+25bb2, U+25bdf, U+25be5, U+25c14, U+25c4b, U+25c64, U+25d0a, U+25da1, U+25e2e, U+25e56, U+25e62, U+25e65, U+25e86, U+25ec2, U+25ed7-25ed8, U+25ee8, U+25f23, U+25f5c, U+25fd4, U+25fe0, U+25ffb, U+2600c, U+26017, U+26060, U+260ed, U+26221-26222, U+2624e, U+2626a, U+26270, U+26286, U+26293, U+2634c, U+26402, U+2648d, U+26676, U+2667e, U+266b0, U+26706, U+2671d, U+2677c, U+267ea, U+268dd, U+268ea, U+26951, U+2696f, U+26999, U+269dd, U+26a1e, U+26a58, U+26a8c, U+26ab7, U+26aff, U+26b5c, U+26c21, U+26c29, U+26c73, U+26c9e, U+26cdd, U+26e40, U+26e65, U+26f94, U+26ff6-26ff8, U+270f4, U+2710d, U+27139, U+2725f, U+27285, U+27304, U+273da-273db, U+273fe, U+27410, U+27449, U+27614-27615, U+27631, U+27684, U+27693, U+2770e, U+27723, U+27752, U+278b2, U+27985, U+279b4, U+27a63, U+27a84, U+27b99, U+27bb3, U+27bbe, U+27bc7, U+27c3c, U+27cb8, U+27d73, U+27da0, U+27e10, U+27ef4, U+27fb7, U+27fec, U+27ff3, U+27ff9, U+2808a, U+280bb, U+280be-280bf, U+280f0, U+28154, U+28277, U+28282, U+282f3, U+283cd, U+28408, U+2840c, U+28455, U+28468, U+28487, U+2856b, U+285c8-285c9, U+28678, U+28695, U+286d7, U+286fa, U+287e0, U+28891, U+28946, U+28949, U+2896b, U+28987-28988, U+289ba-289bb, U+28a1e, U+28a29, U+28a43, U+28a71, U+28a99, U+28acd, U+28add, U+28ae4, U+28b49, U+28bc1, U+28bef, U+28c47, U+28c4f, U+28c51, U+28c54, U+28cdd, U+28d10, U+28d71, U+28dfb, U+28e0f, U+28e17, U+28e1f, U+28e36, U+28e89, U+28e99, U+28eeb, U+28ef6, U+28f32, U+28ff8, U+292a0, U+292b1, U+2947e, U+29490, U+295cf, U+2967f, U+296a8, U+296e9, U+296f0, U+29704, U+29719, U+29730, U+29750, U+29810, U+298c6, U+29a72, U+29d4b, U+29d71, U+29ddb, U+29e15, U+29e19, U+29e36, U+29e3d, U+29e49, U+29e8a, U+29ec4, U+29edb, U+29ee9, U+29f27, U+29f7e, U+29f83, U+29f8c, U+29fce, U+29fd7, U+2a01a, U+2a02f, U+2a04e, U+2a082, U+2a0f9, U+2a190, U+2a2b2, U+2a38c, U+2a41e, U+2a437, U+2a590, U+2a5f1, U+2a602, U+2a612, U+2a61a, U+2a6b2;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-C.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-C.woff) format('woff');
+  unicode-range: U+2a736, U+2a7dd, U+2a8fb, U+2a917, U+2a9e6, U+2aa30, U+2aa36, U+2aa58, U+2ae5a, U+2afa2, U+2b127-2b128, U+2b137-2b138, U+2b1ed, U+2b300, U+2b363, U+2b36f, U+2b372, U+2b37d, U+2b404, U+2b410, U+2b413, U+2b461, U+2b4e7, U+2b4ef, U+2b4f6, U+2b4f9, U+2b50d-2b50e, U+2b536, U+2b5ae-2b5af, U+2b5b3, U+2b5e7, U+2b5f4, U+2b61c-2b61d, U+2b626-2b628, U+2b62a, U+2b62c, U+2b695-2b696, U+2b6ad, U+2b6ed;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-D.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-D.woff) format('woff');
+  unicode-range: U+2b746, U+2b74f, U+2b751, U+2b753, U+2b758, U+2b75a-2b75c, U+2b765, U+2b776-2b777, U+2b77a-2b77c, U+2b782, U+2b789, U+2b78b, U+2b78e, U+2b794, U+2b7a9, U+2b7ac, U+2b7af, U+2b7bc-2b7bd, U+2b7c2, U+2b7c5, U+2b7c9, U+2b7cf, U+2b7d2, U+2b7d8, U+2b7e6-2b7e7, U+2b7f0, U+2b7f9, U+2b7fc, U+2b806, U+2b80a, U+2b80d, U+2b817, U+2b81a-2b81c;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-E.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-E.woff) format('woff');
+  unicode-range: U+2b8b8, U+2b8c6, U+2bac7, U+2bb5f, U+2bb62, U+2bb7c, U+2bb83, U+2bc1b, U+2bd77, U+2bd87, U+2bdf7, U+2be29, U+2c029-2c02a, U+2c0a9, U+2c0ca, U+2c1d5, U+2c1d9, U+2c1f9, U+2c27c, U+2c288, U+2c2a4, U+2c317, U+2c35b, U+2c361, U+2c364, U+2c488, U+2c494, U+2c497, U+2c542, U+2c613, U+2c618, U+2c621, U+2c629, U+2c62b-2c62d, U+2c62f, U+2c642, U+2c64a-2c64b, U+2c72c, U+2c72f, U+2c79f, U+2c7c1, U+2c7fd, U+2c816, U+2c8d9, U+2c8de, U+2c8e1, U+2c8f3, U+2c907, U+2c90a, U+2c91d, U+2c9b0, U+2ca02, U+2ca0e, U+2ca7d, U+2caa9, U+2cb29, U+2cb2d-2cb2e, U+2cb31, U+2cb38-2cb39, U+2cb3b, U+2cb3f, U+2cb41, U+2cb4a, U+2cb4e, U+2cb5a-2cb5b, U+2cb64, U+2cb69, U+2cb6c, U+2cb6f, U+2cb73, U+2cb76, U+2cb78, U+2cb7c, U+2cbb1, U+2cbbf-2cbc0, U+2cbce, U+2cc56, U+2cc5f, U+2ccf5-2ccf6, U+2ccfd, U+2ccff, U+2cd02-2cd03, U+2cd0a, U+2cd8b, U+2cd8d, U+2cd8f-2cd90, U+2cd9f-2cda0, U+2cda8, U+2cdad-2cdae, U+2cdd5, U+2ce18, U+2ce1a, U+2ce23, U+2ce26, U+2ce2a, U+2ce7c, U+2ce88, U+2ce93;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-F.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Unified-Ideographs-Extension-F.woff) format('woff');
+  unicode-range: U+2d544, U+2e278, U+2e6ea;
+}
+
+@font-face {
+  font-family: GenYoMin TW Web;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GenYoMin TW R'), local('GenYoMinTW-R'), url(GenYoMinTW-R-01.CJK-Compatibility-Ideographs-Supplement.woff2) format('woff2'), url(GenYoMinTW-R-01.CJK-Compatibility-Ideographs-Supplement.woff) format('woff');
+  unicode-range: U+2f804, U+2f80f, U+2f815, U+2f818, U+2f81a, U+2f822, U+2f828, U+2f82c, U+2f833, U+2f83f, U+2f846, U+2f852, U+2f862, U+2f86d, U+2f873, U+2f877, U+2f884, U+2f899-2f89a, U+2f8a6, U+2f8ac, U+2f8b2, U+2f8b6, U+2f8d3, U+2f8db-2f8dc, U+2f8e1, U+2f8e5, U+2f8ea, U+2f8ed, U+2f8fc, U+2f903, U+2f90b, U+2f90f, U+2f91a, U+2f920-2f921, U+2f945, U+2f947, U+2f96c, U+2f995, U+2f9d0, U+2f9de-2f9df, U+2f9f4;
+}
