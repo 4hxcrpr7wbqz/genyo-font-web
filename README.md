@@ -9,13 +9,13 @@ The web font of [GenYoMin](https://github.com/ButTaiwan/genyo-font) (源樣明�
 GenYoMin TW Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-Full.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-Full.min.css"/>
 ```
 
 GenYoMin JP Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-Full.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-Full.min.css"/>
 ```
 
 Example: [full.html](full.html)
@@ -25,13 +25,13 @@ Example: [full.html](full.html)
 GenYoMin TW Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-RB.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-RB.min.css"/>
 ```
 
 GenYoMin JP Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-RB.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-RB.min.css"/>
 ```
 
 Example: [rb.html](rb.html)
@@ -41,13 +41,13 @@ Example: [rb.html](rb.html)
 GenYoMin TW Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-RSB.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-RSB.min.css"/>
 ```
 
 GenYoMin JP Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-RSB.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-RSB.min.css"/>
 ```
 
 Example: [rsb.html](rsb.html)
@@ -57,25 +57,25 @@ Example: [rsb.html](rsb.html)
 GenYoMin TW Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-EL.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-L.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-R.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-M.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-SB.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-B.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-H.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-EL.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-L.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-R.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-M.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-SB.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-B.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinTW-H.min.css"/>
 ```
 
 GenYoMin JP Web:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-EL.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-L.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-R.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-M.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-SB.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-B.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-H.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-EL.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-L.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-R.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-M.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-SB.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-B.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/4hxcrpr7wbqz/genyo-font-web@1.501/GenYoMinJP-H.min.css"/>
 ```
 
 Example: [index.html](index.html)
